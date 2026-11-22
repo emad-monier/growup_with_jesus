@@ -1,0 +1,50 @@
+﻿chapter_id,book,original_outline_chapter_title,registry_chapter_title,title_identical_after_normalization,topic_bullets_preserved,result
+B01,Boys,Who Am I?,Who Am I?,True,5,MATCH_ID_ORDER; EXACT_NORMALIZED
+B02,Boys,What Does It Mean to Become a Christian Man?,Becoming a Christian Man,False,6,MATCH_ID_ORDER; TITLE_VARIANT
+B03,Boys,Understanding My Personality and Feelings,Personality and Feelings,False,6,MATCH_ID_ORDER; TITLE_VARIANT
+B04,Boys,Puberty — What’s Happening to My Body?,Puberty and My Body,False,7,MATCH_ID_ORDER; TITLE_VARIANT
+B05,Boys,Taking Care of My Body,Taking Care of My Body,True,6,MATCH_ID_ORDER; EXACT_NORMALIZED
+B06,Boys,Understanding My Mind and Emotions,Mind and Emotions,False,6,MATCH_ID_ORDER; TITLE_VARIANT
+B07,Boys,Knowing God Personally,Knowing God Personally,True,6,MATCH_ID_ORDER; EXACT_NORMALIZED
+B08,Boys,Prayer and Spiritual Habits,Prayer and Spiritual Habits,True,6,MATCH_ID_ORDER; EXACT_NORMALIZED
+B09,Boys,Living the Sacramental Life,Sacramental Life,False,6,MATCH_ID_ORDER; TITLE_VARIANT
+B10,Boys,Learning from Coptic Saints and Heroes of Faith,Saints and Heroes of Faith,False,6,MATCH_ID_ORDER; TITLE_VARIANT
+B11,Boys,Choosing Good Friends,Good Friends,False,6,MATCH_ID_ORDER; TITLE_VARIANT
+B12,Boys,Understanding Attraction and Romantic Feelings,Attraction and Romantic Feelings,False,7,MATCH_ID_ORDER; TITLE_VARIANT
+B13,Boys,"Sexuality, Temptation, and Purity","Sexuality, Temptation and Purity",True,7,MATCH_ID_ORDER; EXACT_NORMALIZED
+B14,Boys,"Respect, Consent, and Personal Safety","Respect, Consent and Safety",False,6,MATCH_ID_ORDER; TITLE_VARIANT
+B15,Boys,"Social Media, Gaming, and Digital Life","Social Media, Gaming and Digital Life",True,6,MATCH_ID_ORDER; EXACT_NORMALIZED
+B16,Boys,Being a Coptic Christian in a Multicultural Society,Coptic Identity in Multicultural Society,False,6,MATCH_ID_ORDER; TITLE_VARIANT
+B17,Boys,"Dealing with Pressure, Failure, and Temptation","Pressure, Failure and Temptation",False,6,MATCH_ID_ORDER; TITLE_VARIANT
+B18,Boys,"Discipline, Habits, and Time Management",Discipline and Time Management,False,6,MATCH_ID_ORDER; TITLE_VARIANT
+B19,Boys,"Family, Respect, and Independence","Family, Respect and Independence",True,6,MATCH_ID_ORDER; EXACT_NORMALIZED
+B20,Boys,"Money, Education, and Preparing for the Future","Money, Education and Future",False,6,MATCH_ID_ORDER; TITLE_VARIANT
+B21,Boys,"Leadership, Service, and Christian Character",Leadership and Service,False,6,MATCH_ID_ORDER; TITLE_VARIANT
+B22,Boys,Faith After High School,Faith After High School,True,6,MATCH_ID_ORDER; EXACT_NORMALIZED
+B23,Boys,My Personal Rule of Life,My Personal Rule of Life,True,6,MATCH_ID_ORDER; EXACT_NORMALIZED
+G01,Girls,Who Am I?,Who Am I?,True,6,MATCH_ID_ORDER; EXACT_NORMALIZED
+G02,Girls,What Does It Mean to Become a Christian Woman?,Becoming a Christian Woman,False,6,MATCH_ID_ORDER; TITLE_VARIANT
+G03,Girls,Understanding My Feelings and Personality,Feelings and Personality,False,6,MATCH_ID_ORDER; TITLE_VARIANT
+G04,Girls,Puberty — What’s Happening to My Body?,Puberty and My Body,False,7,MATCH_ID_ORDER; TITLE_VARIANT
+G05,Girls,Understanding My Period,Understanding My Period,True,8,MATCH_ID_ORDER; EXACT_NORMALIZED
+G06,Girls,Taking Care of My Body,Taking Care of My Body,True,7,MATCH_ID_ORDER; EXACT_NORMALIZED
+G07,Girls,Understanding My Mind and Emotions,Mind and Emotions,False,7,MATCH_ID_ORDER; TITLE_VARIANT
+G08,Girls,Knowing God Personally,Knowing God Personally,True,7,MATCH_ID_ORDER; EXACT_NORMALIZED
+G09,Girls,Prayer and Developing Spiritual Habits,Prayer and Spiritual Habits,False,7,MATCH_ID_ORDER; TITLE_VARIANT
+G10,Girls,Living the Sacramental Life,Sacramental Life,False,7,MATCH_ID_ORDER; TITLE_VARIANT
+G11,Girls,Inspiring Women in the Bible and Coptic Church,Inspiring Women in Scripture and Church,False,6,MATCH_ID_ORDER; TITLE_VARIANT
+G12,Girls,"Friendship, Belonging, and Peer Pressure",Friendship and Peer Pressure,False,7,MATCH_ID_ORDER; TITLE_VARIANT
+G13,Girls,"Understanding Crushes, Attraction, and Romantic Feelings",Crushes and Romantic Feelings,False,7,MATCH_ID_ORDER; TITLE_VARIANT
+G14,Girls,"Sexuality, Purity, and Understanding My Body","Sexuality, Purity and Body",False,8,MATCH_ID_ORDER; TITLE_VARIANT
+G15,Girls,"Boundaries, Consent, and Personal Safety","Boundaries, Consent and Safety",False,8,MATCH_ID_ORDER; TITLE_VARIANT
+G16,Girls,"Beauty, Modesty, and Self-Respect","Beauty, Modesty and Respect",False,7,MATCH_ID_ORDER; TITLE_VARIANT
+G17,Girls,"Social Media, Influencers, and Digital Life",Social Media and Digital Life,False,8,MATCH_ID_ORDER; TITLE_VARIANT
+G18,Girls,Being a Coptic Orthodox Girl in Modern Society,Coptic Identity and Society,False,7,MATCH_ID_ORDER; TITLE_VARIANT
+G19,Girls,"Handling Pressure, Failure, and Difficult Choices","Pressure, Failure and Choices",False,7,MATCH_ID_ORDER; TITLE_VARIANT
+G20,Girls,"Discipline, Habits, and Time Management",Discipline and Time Management,False,7,MATCH_ID_ORDER; TITLE_VARIANT
+G21,Girls,"Family, Respect, and Healthy Independence","Family, Respect and Independence",False,7,MATCH_ID_ORDER; TITLE_VARIANT
+G22,Girls,"Education, Career, Money, and Life Skills","Education, Career and Money",False,7,MATCH_ID_ORDER; TITLE_VARIANT
+G23,Girls,"Leadership, Courage, and Christian Service","Leadership, Courage and Service",False,8,MATCH_ID_ORDER; TITLE_VARIANT
+G24,Girls,"Relationships, Marriage, and My Future","Relationships, Marriage and Future",False,7,MATCH_ID_ORDER; TITLE_VARIANT
+G25,Girls,Faith and Independence After High School,Faith and Independence After School,False,6,MATCH_ID_ORDER; TITLE_VARIANT
+G26,Girls,My Personal Journey with Christ,My Journey with Christ,False,7,MATCH_ID_ORDER; TITLE_VARIANT

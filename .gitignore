@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+outputs/
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+private_sources/
+protected_texts/

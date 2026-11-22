@@ -1,0 +1,61 @@
+name: KB-1 SQLite migration validation
+
+on:
+  pull_request:
+    paths:
+      - 'knowledge_base/migrations/**'
+      - 'knowledge_base/knowledge_base_phase3c.sqlite'
+      - '.github/workflows/kb1-validation.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Configure Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run migration and preservation checks
+        run: |
+          mkdir -p validation-output
+          python knowledge_base/migrations/kb1_upgrade.py \
+            --source knowledge_base/knowledge_base_phase3c.sqlite \
+            --output validation-output/knowledge_base_kb1.sqlite \
+            | tee validation-output/migration.json
+      - name: Run tests
+        run: |
+          python -m unittest discover -s knowledge_base/migrations/tests -p 'test_*.py' -v 2>&1 \
+            | tee validation-output/tests.log
+      - name: Generate B04 and G05 readiness report
+        run: |
+          python knowledge_base/migrations/kb1_readiness.py \
+            validation-output/knowledge_base_kb1.sqlite \
+            --output validation-output/chapter_readiness.json \
+            | tee validation-output/readiness.log
+      - name: Confirm baseline remained untouched
+        run: |
+          python - <<'PY'
+          import json, pathlib, hashlib
+          record=json.loads(pathlib.Path('validation-output/migration.json').read_text())
+          baseline=pathlib.Path('knowledge_base/knowledge_base_phase3c.sqlite')
+          assert hashlib.sha256(baseline.read_bytes()).hexdigest()==record['source_sha256']
+          assert record['integrity']=='ok'
+          assert record['foreign_key_errors']==0
+          print('Baseline checksum, integrity and foreign keys OK')
+          PY
+      - name: Upload validation reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kb1-validation-reports
+          path: |
+            validation-output/*.json
+            validation-output/*.log
+          retention-days: 30

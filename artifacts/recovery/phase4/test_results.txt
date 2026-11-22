@@ -1,0 +1,8 @@
+test_both (test_workflow.Tests.test_both) ... ok
+test_invalid_id_rejected (test_workflow.Tests.test_invalid_id_rejected) ... ok
+test_valid_marker_passes_syntax_not_approval (test_workflow.Tests.test_valid_marker_passes_syntax_not_approval) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.008s
+
+OK

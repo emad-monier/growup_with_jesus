@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Growing Up with Christ — Internal Pilot Review</title>
+  <style>
+    :root { --ink:#1f2a27; --muted:#62716b; --paper:#fffdf8; --page:#edf2ee; --accent:#176b55; --accent-soft:#d9eee5; --hold:#8b3900; --hold-soft:#fff0e5; --line:#d5ded9; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--page); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Arial,sans-serif; }
+    header { background:#153d32; color:#fff; padding:2.2rem max(1.25rem,calc((100vw - 1060px)/2)); }
+    header h1 { margin:0 0 .35rem; font-size:clamp(1.5rem,3vw,2.35rem); line-height:1.2; }
+    header p { max-width:780px; margin:.25rem 0 0; color:#d9eee5; }
+    main { max-width:1060px; margin:1.5rem auto 3rem; padding:0 1.25rem; }
+    .notice { border:1px solid #e4af75; background:var(--hold-soft); color:#663000; padding:1rem 1.1rem; border-radius:10px; margin-bottom:1rem; }
+    .notice strong { display:block; }
+    .controls { display:grid; grid-template-columns:1fr 1fr auto; gap:.8rem; align-items:end; padding:1rem; background:#fff; border:1px solid var(--line); border-radius:10px; }
+    .control-label { display:block; font-size:.84rem; font-weight:700; color:var(--muted); margin-bottom:.25rem; }
+    select, button { width:100%; min-height:42px; border:1px solid #aab9b2; border-radius:7px; padding:.5rem .65rem; font:inherit; background:#fff; color:var(--ink); }
+    button { width:auto; cursor:pointer; border-color:var(--accent); color:#fff; background:var(--accent); }
+    button:hover { background:#0e5744; }
+    .meta { display:flex; flex-wrap:wrap; gap:.5rem; margin:1rem 0; font-size:.9rem; color:var(--muted); }
+    .tag { padding:.17rem .55rem; border-radius:999px; background:var(--accent-soft); color:#15513f; font-weight:650; }
+    .tag.hold { background:var(--hold-soft); color:var(--hold); }
+    article { background:var(--paper); border:1px solid var(--line); border-radius:12px; padding:clamp(1.1rem,4vw,3.2rem); box-shadow:0 6px 22px rgba(24,49,40,.06); }
+    article[dir="rtl"] { font-family:Tahoma,Arial,sans-serif; font-size:1.04rem; }
+    article h1 { font-size:clamp(1.55rem,3vw,2.2rem); line-height:1.25; margin:0 0 1.2rem; color:#153d32; }
+    article h2 { color:#176b55; margin:2rem 0 .6rem; font-size:1.35rem; line-height:1.35; border-bottom:1px solid #dce7e1; padding-bottom:.25rem; }
+    article h3 { margin:1.2rem 0 .25rem; font-size:1.05rem; }
+    article p { margin:.65rem 0; }
+    article ul, article ol { padding-inline-start:1.55rem; }
+    article blockquote { margin:1rem 0; padding:.75rem 1rem; border-inline-start:4px solid var(--hold); background:var(--hold-soft); color:#60320e; }
+    .citation { white-space:nowrap; background:#eaf3ff; color:#164c83; font:700 .82em ui-monospace,SFMono-Regular,Consolas,monospace; border-radius:4px; padding:.08rem .25rem; }
+    .review-hold { display:block; border-inline-start:4px solid #d26a22; background:var(--hold-soft); color:#60320e; padding:.75rem .9rem; margin:1rem 0; font-weight:600; }
+    .sacred-text { color:#7a3f8c; background:#f5ebf8; border-radius:4px; padding:.02em .18em; font-weight:800; }
+    .tradition-text { color:#7a3f8c; font-weight:800; }
+    .loading, .error { padding:2rem; text-align:center; color:var(--muted); }
+    .error { color:#8b2100; }
+    footer { max-width:1060px; padding:0 1.25rem 2rem; margin:auto; color:var(--muted); font-size:.9rem; }
+    @media (max-width:650px) { .controls { grid-template-columns:1fr; } button { width:100%; } }
+    @media print { body { background:#fff; } header { background:#fff; color:#000; padding:0 0 1rem; } header p { color:#333; } .notice,.controls,footer { display:none; } main { max-width:none; margin:0; padding:0; } article { box-shadow:none; border:0; padding:0; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Growing Up with Christ</h1>
+    <p>Internal trilingual pilot review copy — B04 and G05</p>
+  </header>
+  <main>
+    <section class="notice" aria-label="Internal draft warning">
+      <strong>Internal working drafts only.</strong>
+      These texts are not reviewed, approved, publishable, or distributable. Every highlighted
+      <code>[REVIEW-NEEDED: ...]</code> item remains open. The viewer performs no medical,
+      theological, safeguarding, language, or rights validation.
+    </section>
+    <section class="controls" aria-label="Draft controls">
+      <label><span class="control-label">Chapter</span>
+        <select id="chapter"><option value="B04">B04 — Puberty</option><option value="G05">G05 — Period</option></select>
+      </label>
+      <label><span class="control-label">Language</span>
+        <select id="language"><option value="AR">العربية</option><option value="EN">English</option><option value="DE">Deutsch</option></select>
+      </label>
+      <button id="print" type="button">Print selected draft</button>
+    </section>
+    <div class="meta" id="meta" aria-live="polite"></div>
+    <article id="draft" class="loading" aria-live="polite">Loading draft…</article>
+  </main>
+  <footer>
+    Run this viewer from the repository root with <code>python3 -m http.server</code>, then open
+    <code>http://localhost:8000/review/pilot_drafts_trilingual.html</code>. Direct <code>file://</code>
+    opening may prevent the browser from loading the Markdown source files.
+  </footer>
+  <script>
+    const drafts = {
+      B04: { EN:"../drafts/internal/B04_EN_INTERNAL_DRAFT.md", AR:"../drafts/internal/B04_AR_READER_DRAFT_v4.md", DE:"../drafts/internal/B04_DE_INTERNAL_DRAFT.md" },
+      G05: { EN:"../drafts/internal/G05_EN_INTERNAL_DRAFT.md", AR:"../drafts/internal/G05_AR_READER_DRAFT_v4.md", DE:"../drafts/internal/G05_DE_INTERNAL_DRAFT.md" }
+    };
+    const languageNames = { EN:"English", AR:"العربية", DE:"Deutsch" };
+    const chapter = document.querySelector("#chapter"), language = document.querySelector("#language");
+    const article = document.querySelector("#draft"), meta = document.querySelector("#meta");
+    const escape = s => s.replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+    function inline(s) {
+      let out = escape(s);
+      out = out.replace(/\[CLM:([^\]]+)\]/g, '<span class="citation">[CLM:$1]</span>');
+      out = out.replace(/\[REVIEW-NEEDED:([^\]]+)\]/g, '<span class="review-hold">[REVIEW-NEEDED:$1]</span>');
+      out = out.replace(new RegExp("\\x60([^\\x60]+)\\x60","g"), '<code>$1</code>');
+      out = out.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+      return out;
+    }
+    function renderMarkdown(md) {
+      const lines = md.replace(/\r/g,"").split("\n");
+      let html = "", paragraph = [], list = null;
+      const flushParagraph = () => { if (paragraph.length) { html += "<p>"+inline(paragraph.join(" "))+"</p>"; paragraph=[]; } };
+      const closeList = () => { if (list) { html += "</"+list+">"; list=null; } };
+      for (const raw of lines) {
+        const line = raw.trim();
+        if (/^<!--/.test(line)) continue;
+        let m;
+        if (!line) { flushParagraph(); closeList(); continue; }
+        if ((m=line.match(/^(#{1,3})\s+(.+)$/))) { flushParagraph(); closeList(); const n=m[1].length; html += "<h"+n+">"+inline(m[2])+"</h"+n+">"; continue; }
+        if ((m=line.match(/^>\s?(.*)$/))) { flushParagraph(); closeList(); html += "<blockquote>"+inline(m[1])+"</blockquote>"; continue; }
+        if ((m=line.match(/^[-*]\s+(.+)$/))) { flushParagraph(); if (list!=="ul") { closeList(); list="ul"; html+="<ul>"; } html += "<li>"+inline(m[1])+"</li>"; continue; }
+        if ((m=line.match(/^\d+\.\s+(.+)$/))) { flushParagraph(); if (list!=="ol") { closeList(); list="ol"; html+="<ol>"; } html += "<li>"+inline(m[1])+"</li>"; continue; }
+        paragraph.push(line);
+      }
+      flushParagraph(); closeList();
+      html = html.replace(/«([^»]+)»(?=\s*\((?:مز|مر|1 كو)[^)]*\))/g, '<span class="sacred-text">«$1»</span>');
+      html = html.replace(/«(نسبحك، نباركك، نخدمك يا رب، ونسجد لك|يا ملك السلام، أعطنا سلامك)»/g, '<span class="sacred-text">«$1»</span>');
+      html = html.replace(/<p>((?:ومن أصوات آباء الكنيسة|وفي تأمل رعوي معاصر)[^<]*)<\/p>/g, '<p class="tradition-text">$1</p>');
+      return html;
+    }
+    async function loadDraft() {
+      const c=chapter.value, l=language.value, url=drafts[c][l];
+      article.className="loading"; article.removeAttribute("dir"); article.lang=l.toLowerCase(); article.textContent="Loading draft…";
+      meta.innerHTML = '<span class="tag">Internal draft</span><span class="tag hold">Review holds active</span><span class="tag">'+c+"</span><span class=\"tag\">"+languageNames[l]+"</span>";
+      try {
+        const response=await fetch(url);
+        if (!response.ok) throw new Error("HTTP "+response.status);
+        article.className=""; article.dir=l==="AR"?"rtl":"ltr"; article.lang=l.toLowerCase(); article.innerHTML=renderMarkdown(await response.text());
+      } catch (error) {
+        article.className="error"; article.innerHTML="<strong>Unable to load this draft.</strong><br>Serve the repository through a local web server and try again. Source: <code>"+escape(url)+"</code><br>"+escape(String(error));
+      }
+    }
+    chapter.addEventListener("change",loadDraft); language.addEventListener("change",loadDraft);
+    document.querySelector("#print").addEventListener("click",()=>window.print());
+    loadDraft();
+  </script>
+</body>
+</html>
+

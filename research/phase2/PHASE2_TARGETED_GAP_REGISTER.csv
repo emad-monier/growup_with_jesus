@@ -1,0 +1,13 @@
+﻿gap_id,category,issue,closure_condition,next_phase,status,notes
+P2G-01,text,دعوني أنمو! subsection inventory incomplete,Resolve all reachable contents indexes or document precisely remaining inaccessible ones,Phase 2 supplement / Phase 3,open,Verified main index and eight introductory subsections only.
+P2G-02,text,Two Bishop Moussa titles catalogue-only,Acquire accessible contents or record unavailable status and choose alternatives,Phase 2 supplement,open,Do not cite internal pages without access.
+P2G-03,edition,Pope Shenouda edition and exact page locations incomplete,Confirm editions and section-level locators used for pilot claims,Phase 3,open,"Four book inventories exist, not full original texts."
+P2G-04,patristics,Patristic sayings attribution unverified,Resolve at work/section level for every used quote,Phase 3,open,Do not promote attributed sayings until checked.
+P2G-05,medicine,ACOG 2015 current status uncertain,Find latest eligible professional recommendation or retain only with clear dated limitation,Phase 3 prior to G05,open,"2015 page remains publicly accessible, not proof of currency."
+P2G-06,medicine,NHS periods overview review overdue,Review updated official guidance prior to quoting clinical details,Phase 3 prior to G05,open,Next review due 2026-01-05 on current page.
+P2G-07,rights,NKJV and German Bible quotation rights unresolved,Determine planned quotation volume and obtain authorization if needed,Before publication,open,No licenses acquired.
+P2G-08,rights,Arabic author and liturgy text reproduction rights unresolved,Confirm rights holders and quotation rules for selected editions,Before publication,open,Hosting permission differs from derivative publishing rights.
+P2G-09,theology,German Einheitsübersetzung pastoral approval pending,Obtain and log review from qualified German-speaking Coptic Orthodox reviewer,Phase 7-8,open,Provisional choice.
+P2G-10,liturgy,Three-language authorized Coptic liturgical editions not fixed,Select authentic edition for each language and record version and rights,Phase 3 before liturgy chapters,open,Agpeya index is not edition approval.
+P2G-11,safeguarding,Country-specific help resources incomplete,Validate resources by destination country and language,Phase 8,open,Avoid pretending US emergency resources universally apply.
+P2G-12,evidence,No verified theological or medical claim/passages in DB,Populate claim-evidence with exact passages and review audit,Phase 3,open,Research entries ≠ verified claims.

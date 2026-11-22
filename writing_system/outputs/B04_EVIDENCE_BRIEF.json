@@ -1,0 +1,403 @@
+{
+  "chapter": {
+    "chapter_id": "B04",
+    "book": "boys",
+    "ordinal": 4,
+    "title": "Puberty and My Body"
+  },
+  "evidence_class": "source_checked_not_expert_approved",
+  "grounded_claims": [
+    {
+      "id": "P3C001",
+      "text": "Fr. Tadros describes the human body as worthy of care and respect rather than contempt.",
+      "classification": "pastoral",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P3PASS-TAD-CARE",
+          "section_title": "أرع جسدك ولا تؤلهه!",
+          "locator": "2 and 4",
+          "source_url": "https://st-takla.org/books/fr-tadros-malaty/grow/care.html",
+          "read_status": "checked",
+          "evidence_status": "reviewed",
+          "relation": "supports",
+          "quote_permission_status": "paraphrase_only"
+        }
+      ]
+    },
+    {
+      "id": "P3C002",
+      "text": "Fr. Tadros encourages adults to respond supportively to adolescents experiencing physical changes and new feelings.",
+      "classification": "pastoral",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P3PASS-TAD-CARE",
+          "section_title": "أرع جسدك ولا تؤلهه!",
+          "locator": "2 and 4",
+          "source_url": "https://st-takla.org/books/fr-tadros-malaty/grow/care.html",
+          "read_status": "checked",
+          "evidence_status": "reviewed",
+          "relation": "supports",
+          "quote_permission_status": "paraphrase_only"
+        }
+      ]
+    },
+    {
+      "id": "P3C003",
+      "text": "Fr. Tadros rejects treating sexual development as inherently impure or shameful.",
+      "classification": "pastoral",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P3PASS-TAD-INSTINCT",
+          "section_title": "الغريزة الجنسية في حياة المؤمن",
+          "locator": "opening and final paragraphs",
+          "source_url": "https://st-takla.org/books/fr-tadros-malaty/grow/instinct.html",
+          "read_status": "checked",
+          "evidence_status": "reviewed",
+          "relation": "supports",
+          "quote_permission_status": "paraphrase_only"
+        }
+      ]
+    },
+    {
+      "id": "P3C004",
+      "text": "Puberty involves changes such as underarm and pubic hair, genital growth and voice changes in boys, and breast development and menstruation in girls.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P3PASS-NHS-PUB",
+          "section_title": "Early or delayed puberty",
+          "locator": "Symptoms of early or delayed puberty; Non-urgent advice",
+          "source_url": "https://www.nhs.uk/conditions/early-or-delayed-puberty/",
+          "read_status": "checked",
+          "evidence_status": "reviewed",
+          "relation": "supports",
+          "quote_permission_status": "paraphrase_only"
+        }
+      ]
+    },
+    {
+      "id": "P3C005",
+      "text": "Puberty timing varies, and medical advice is appropriate if development appears unusually early or delayed.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P3PASS-NHS-PUB",
+          "section_title": "Early or delayed puberty",
+          "locator": "Symptoms of early or delayed puberty; Non-urgent advice",
+          "source_url": "https://www.nhs.uk/conditions/early-or-delayed-puberty/",
+          "read_status": "checked",
+          "evidence_status": "reviewed",
+          "relation": "supports",
+          "quote_permission_status": "paraphrase_only"
+        }
+      ]
+    },
+    {
+      "id": "P3C006",
+      "text": "Menstruation is a natural part of puberty; preparing young people to understand periods helps remove embarrassment.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P3PASS-NHS-START",
+          "section_title": "Starting your periods",
+          "locator": "Talking about periods; The questions girls ask about periods",
+          "source_url": "https://www.nhs.uk/conditions/periods/starting-periods/",
+          "read_status": "checked",
+          "evidence_status": "reviewed",
+          "relation": "supports",
+          "quote_permission_status": "paraphrase_only"
+        }
+      ]
+    },
+    {
+      "id": "P3C011",
+      "text": "Age-appropriate health education can cover puberty, menstruation, body image, privacy, consent, and seeking support.",
+      "classification": "safeguarding",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P3PASS-WHO-CSE",
+          "section_title": "Comprehensive sexuality education",
+          "locator": "Key facts; What CSE covers",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/comprehensive-sexuality-education",
+          "read_status": "checked",
+          "evidence_status": "reviewed",
+          "relation": "supports",
+          "quote_permission_status": "paraphrase_only"
+        }
+      ]
+    }
+  ],
+  "research_leads": [
+    {
+      "id": "CLM-3B001",
+      "text": "Fr. Tadros links respect for the human body with the Incarnation and argues that bodily life should be cared for rather than despised.",
+      "classification": "pastoral",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3B001",
+          "section_title": "numbered sections 2 and 4",
+          "locator": "numbered sections 2 and 4",
+          "source_url": "https://st-takla.org/books/fr-tadros-malaty/grow/care.html",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3B002",
+      "text": "Fr. Tadros urges parents, schools, and Church mentors to discuss adolescent bodily changes in a supportive way rather than causing shame.",
+      "classification": "pastoral",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3B001",
+          "section_title": "numbered sections 2 and 4",
+          "locator": "numbered sections 2 and 4",
+          "source_url": "https://st-takla.org/books/fr-tadros-malaty/grow/care.html",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3B003",
+      "text": "Bishop Moussa places sexuality in the theological context of love, communion, and marriage.",
+      "classification": "pastoral",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3B002",
+          "section_title": "section 3",
+          "locator": "section 3",
+          "source_url": "https://st-takla.org/Full-Free-Coptic-Books/FreeCopticBooks-009-Bishop-Moussa/002-Al-Shabab-Wa-Hayat-Al-Tahara/Youth-n-Purity-03-Why-God-Created-Sex.html",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3B004",
+      "text": "Bishop Moussa records that some faithful young people experience fear and difficulty when discussing sexual impulses.",
+      "classification": "pastoral",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3B003",
+          "section_title": "section 2",
+          "locator": "section 2",
+          "source_url": "https://st-takla.org/Full-Free-Coptic-Books/FreeCopticBooks-009-Bishop-Moussa/002-Al-Shabab-Wa-Hayat-Al-Tahara/Youth-n-Purity-02-Why-El-Gens.html",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3B005",
+      "text": "Unplanned erections and nocturnal emissions can occur during male puberty without sexual intention and should not be a cause for blame.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3B004",
+          "section_title": "Wet Dreams; Involuntary Erections; Voice Change",
+          "locator": "Wet Dreams; Involuntary Erections; Voice Change",
+          "source_url": "https://www.healthychildren.org/English/ages-stages/gradeschool/puberty/pages/Concerns-Boys-Have-About-Puberty.aspx",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3B006",
+      "text": "Voice changes and temporary cracking are normal features of male pubertal development.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3B004",
+          "section_title": "Wet Dreams; Involuntary Erections; Voice Change",
+          "locator": "Wet Dreams; Involuntary Erections; Voice Change",
+          "source_url": "https://www.healthychildren.org/English/ages-stages/gradeschool/puberty/pages/Concerns-Boys-Have-About-Puberty.aspx",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3B007",
+      "text": "The timing of puberty varies; unusually early or delayed changes may warrant clinical assessment.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3B005",
+          "section_title": "Symptoms of early or delayed puberty; See a GP",
+          "locator": "Symptoms of early or delayed puberty; See a GP",
+          "source_url": "https://www.nhs.uk/conditions/early-or-delayed-puberty/",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3B013",
+      "text": "Age-appropriate educational material should accurately address bodily development, respect, consent, and knowing how to seek help.",
+      "classification": "safeguarding",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3B010",
+          "section_title": "Key facts; age-appropriate learning",
+          "locator": "Key facts; age-appropriate learning",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/comprehensive-sexuality-education",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3B014",
+      "text": "Sexual activity involving a child who cannot give informed consent constitutes child sexual abuse, and children need safe avenues to report concerns.",
+      "classification": "safeguarding",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3B011",
+          "section_title": "What is child sexual abuse?",
+          "locator": "What is child sexual abuse?",
+          "source_url": "https://www.cdc.gov/child-abuse-neglect/about/about-child-sexual-abuse.html",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3C001",
+      "text": "Puberty can increase oil production and sweating, making regular gentle washing and oral hygiene more important.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3C002",
+          "section_title": "Hygiene and puberty; Hygiene and periods",
+          "locator": "Hygiene and puberty; Hygiene and periods",
+          "source_url": "https://bedslutonchildrenshealth.nhs.uk/child-development-and-growing-up/hygiene/hygiene-for-young-people-and-teenagers/",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3C002",
+      "text": "Gentle washing of external genitals is recommended; internal vaginal washing is not recommended.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3C001",
+          "section_title": "Cleaning your genitals; Washing your face; Washing your hair",
+          "locator": "Cleaning your genitals; Washing your face; Washing your hair",
+          "source_url": "https://www.wchc.nhs.uk/services/lets-talk/young-people/relationships-and-sex-education-rse/puberty/",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3C003",
+      "text": "Pubertal acne and oily skin can be managed with gentle cleansing; harsh or excessive scrubbing should be avoided.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3C001",
+          "section_title": "Cleaning your genitals; Washing your face; Washing your hair",
+          "locator": "Cleaning your genitals; Washing your face; Washing your hair",
+          "source_url": "https://www.wchc.nhs.uk/services/lets-talk/young-people/relationships-and-sex-education-rse/puberty/",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3C011",
+      "text": "Pope Shenouda III distinguishes spiritual preparation for Communion and physical preparation, including fasting and bodily cleanliness.",
+      "classification": "pastoral",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3C006",
+          "section_title": "3- يلزم التناول أيضًا استعدادًا للجسد; paragraph on bleeding, lines 81–88 in live HTML",
+          "locator": "3- يلزم التناول أيضًا استعدادًا للجسد; paragraph on bleeding, lines 81–88 in live HTML",
+          "source_url": "https://st-takla.org/Full-Free-Coptic-Books/His-Holiness-Pope-Shenouda-III-Books-Online/22-Al-Wasa2et-Al-Ro7eya/Spiritual-Means-30-CH08-Eucharist-2-Ready.html",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "chapter": "B04",
+      "objective": "Puberty and developmental variation",
+      "status": "source-supported; expert review pending",
+      "gate": "draft_with_review"
+    },
+    {
+      "chapter": "B04",
+      "objective": "Gentle hygiene, skin, hair and genital care",
+      "status": "source-supported; expert review pending",
+      "gate": "draft_with_review"
+    },
+    {
+      "chapter": "B04",
+      "objective": "Body dignity / church tradition",
+      "status": "source-supported; clergy review pending",
+      "gate": "draft_with_review"
+    },
+    {
+      "chapter": "B04",
+      "objective": "Urgent safety and support",
+      "status": "source-supported; localization needed",
+      "gate": "draft_with_review"
+    }
+  ],
+  "editorial_warnings": [
+    "No specialist review has been recorded.",
+    "Do not use direct third-party quotations without a rights review."
+  ]
+}

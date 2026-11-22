@@ -1,0 +1,11 @@
+{
+  "chapter": "B04",
+  "citation_tokens": 1,
+  "invalid_citations": [
+    "INVENTED"
+  ],
+  "missing_sections": [],
+  "structurally_valid": false,
+  "publication_approved": false,
+  "warning": "Structural token validation does not prove semantic support, clinical accuracy or publication rights."
+}

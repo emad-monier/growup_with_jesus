@@ -1,0 +1,614 @@
+{
+  "chapter": {
+    "chapter_id": "G05",
+    "book": "girls",
+    "ordinal": 5,
+    "title": "Understanding My Period"
+  },
+  "evidence_class": "source_checked_not_expert_approved",
+  "grounded_claims": [
+    {
+      "id": "P3C001",
+      "text": "Fr. Tadros describes the human body as worthy of care and respect rather than contempt.",
+      "classification": "pastoral",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P3PASS-TAD-CARE",
+          "section_title": "أرع جسدك ولا تؤلهه!",
+          "locator": "2 and 4",
+          "source_url": "https://st-takla.org/books/fr-tadros-malaty/grow/care.html",
+          "read_status": "checked",
+          "evidence_status": "reviewed",
+          "relation": "supports",
+          "quote_permission_status": "paraphrase_only"
+        }
+      ]
+    },
+    {
+      "id": "P3C002",
+      "text": "Fr. Tadros encourages adults to respond supportively to adolescents experiencing physical changes and new feelings.",
+      "classification": "pastoral",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P3PASS-TAD-CARE",
+          "section_title": "أرع جسدك ولا تؤلهه!",
+          "locator": "2 and 4",
+          "source_url": "https://st-takla.org/books/fr-tadros-malaty/grow/care.html",
+          "read_status": "checked",
+          "evidence_status": "reviewed",
+          "relation": "supports",
+          "quote_permission_status": "paraphrase_only"
+        }
+      ]
+    },
+    {
+      "id": "P3C003",
+      "text": "Fr. Tadros rejects treating sexual development as inherently impure or shameful.",
+      "classification": "pastoral",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P3PASS-TAD-INSTINCT",
+          "section_title": "الغريزة الجنسية في حياة المؤمن",
+          "locator": "opening and final paragraphs",
+          "source_url": "https://st-takla.org/books/fr-tadros-malaty/grow/instinct.html",
+          "read_status": "checked",
+          "evidence_status": "reviewed",
+          "relation": "supports",
+          "quote_permission_status": "paraphrase_only"
+        }
+      ]
+    },
+    {
+      "id": "P3C004",
+      "text": "Puberty involves changes such as underarm and pubic hair, genital growth and voice changes in boys, and breast development and menstruation in girls.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P3PASS-NHS-PUB",
+          "section_title": "Early or delayed puberty",
+          "locator": "Symptoms of early or delayed puberty; Non-urgent advice",
+          "source_url": "https://www.nhs.uk/conditions/early-or-delayed-puberty/",
+          "read_status": "checked",
+          "evidence_status": "reviewed",
+          "relation": "supports",
+          "quote_permission_status": "paraphrase_only"
+        }
+      ]
+    },
+    {
+      "id": "P3C005",
+      "text": "Puberty timing varies, and medical advice is appropriate if development appears unusually early or delayed.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P3PASS-NHS-PUB",
+          "section_title": "Early or delayed puberty",
+          "locator": "Symptoms of early or delayed puberty; Non-urgent advice",
+          "source_url": "https://www.nhs.uk/conditions/early-or-delayed-puberty/",
+          "read_status": "checked",
+          "evidence_status": "reviewed",
+          "relation": "supports",
+          "quote_permission_status": "paraphrase_only"
+        }
+      ]
+    },
+    {
+      "id": "P3C006",
+      "text": "Menstruation is a natural part of puberty; preparing young people to understand periods helps remove embarrassment.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P3PASS-NHS-START",
+          "section_title": "Starting your periods",
+          "locator": "Talking about periods; The questions girls ask about periods",
+          "source_url": "https://www.nhs.uk/conditions/periods/starting-periods/",
+          "read_status": "checked",
+          "evidence_status": "reviewed",
+          "relation": "supports",
+          "quote_permission_status": "paraphrase_only"
+        }
+      ]
+    },
+    {
+      "id": "P3C007",
+      "text": "The average age for a first period is around 12, although timing varies.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P3PASS-NHS-START",
+          "section_title": "Starting your periods",
+          "locator": "Talking about periods; The questions girls ask about periods",
+          "source_url": "https://www.nhs.uk/conditions/periods/starting-periods/",
+          "read_status": "checked",
+          "evidence_status": "reviewed",
+          "relation": "supports",
+          "quote_permission_status": "paraphrase_only"
+        }
+      ]
+    },
+    {
+      "id": "P3C008",
+      "text": "Medical advice is recommended when menstruation has not begun by age 15, or at age 13 with no other pubertal signs.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P3PASS-NHS-START",
+          "section_title": "Starting your periods",
+          "locator": "Talking about periods; The questions girls ask about periods",
+          "source_url": "https://www.nhs.uk/conditions/periods/starting-periods/",
+          "read_status": "checked",
+          "evidence_status": "reviewed",
+          "relation": "supports",
+          "quote_permission_status": "paraphrase_only"
+        }
+      ]
+    },
+    {
+      "id": "P3C009",
+      "text": "Severe menstrual pain that affects everyday life deserves medical assessment.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P3PASS-NHS-PROBLEMS",
+          "section_title": "Period problems",
+          "locator": "Painful periods; Heavy periods; Irregular periods",
+          "source_url": "https://www.nhs.uk/conditions/periods/period-problems/",
+          "read_status": "checked",
+          "evidence_status": "reviewed",
+          "relation": "supports",
+          "quote_permission_status": "paraphrase_only"
+        }
+      ]
+    },
+    {
+      "id": "P3C010",
+      "text": "Very heavy menstrual bleeding that disrupts daily life warrants discussing symptoms with a healthcare professional.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P3PASS-NHS-PROBLEMS",
+          "section_title": "Period problems",
+          "locator": "Painful periods; Heavy periods; Irregular periods",
+          "source_url": "https://www.nhs.uk/conditions/periods/period-problems/",
+          "read_status": "checked",
+          "evidence_status": "reviewed",
+          "relation": "supports",
+          "quote_permission_status": "paraphrase_only"
+        }
+      ]
+    },
+    {
+      "id": "P3C011",
+      "text": "Age-appropriate health education can cover puberty, menstruation, body image, privacy, consent, and seeking support.",
+      "classification": "safeguarding",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P3PASS-WHO-CSE",
+          "section_title": "Comprehensive sexuality education",
+          "locator": "Key facts; What CSE covers",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/comprehensive-sexuality-education",
+          "read_status": "checked",
+          "evidence_status": "reviewed",
+          "relation": "supports",
+          "quote_permission_status": "paraphrase_only"
+        }
+      ]
+    }
+  ],
+  "research_leads": [
+    {
+      "id": "CLM-3B001",
+      "text": "Fr. Tadros links respect for the human body with the Incarnation and argues that bodily life should be cared for rather than despised.",
+      "classification": "pastoral",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3B001",
+          "section_title": "numbered sections 2 and 4",
+          "locator": "numbered sections 2 and 4",
+          "source_url": "https://st-takla.org/books/fr-tadros-malaty/grow/care.html",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3B002",
+      "text": "Fr. Tadros urges parents, schools, and Church mentors to discuss adolescent bodily changes in a supportive way rather than causing shame.",
+      "classification": "pastoral",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3B001",
+          "section_title": "numbered sections 2 and 4",
+          "locator": "numbered sections 2 and 4",
+          "source_url": "https://st-takla.org/books/fr-tadros-malaty/grow/care.html",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3B003",
+      "text": "Bishop Moussa places sexuality in the theological context of love, communion, and marriage.",
+      "classification": "pastoral",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3B002",
+          "section_title": "section 3",
+          "locator": "section 3",
+          "source_url": "https://st-takla.org/Full-Free-Coptic-Books/FreeCopticBooks-009-Bishop-Moussa/002-Al-Shabab-Wa-Hayat-Al-Tahara/Youth-n-Purity-03-Why-God-Created-Sex.html",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3B007",
+      "text": "The timing of puberty varies; unusually early or delayed changes may warrant clinical assessment.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3B005",
+          "section_title": "Symptoms of early or delayed puberty; See a GP",
+          "locator": "Symptoms of early or delayed puberty; See a GP",
+          "source_url": "https://www.nhs.uk/conditions/early-or-delayed-puberty/",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3B008",
+      "text": "First periods begin at different ages, with NHS reporting an average around age 12.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3B006",
+          "section_title": "Questions girls ask about periods",
+          "locator": "Questions girls ask about periods",
+          "source_url": "https://www.nhs.uk/conditions/periods/starting-periods/",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3B009",
+      "text": "Girls who have not started menstruating by age 15 should seek medical assessment; earlier assessment is advised with absent puberty signs.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3B006",
+          "section_title": "Questions girls ask about periods",
+          "locator": "Questions girls ask about periods",
+          "source_url": "https://www.nhs.uk/conditions/periods/starting-periods/",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3B010",
+      "text": "Heavy periods can include needing to change pads or tampons every one to two hours, bleeding longer than seven days, or interference with activities.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3B007",
+          "section_title": "What are heavy periods?; See a GP",
+          "locator": "What are heavy periods?; See a GP",
+          "source_url": "https://www.nhs.uk/conditions/heavy-periods/",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3B011",
+      "text": "Period pain that prevents usual daily activities warrants medical attention.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3B008",
+          "section_title": "When and where to get help",
+          "locator": "When and where to get help",
+          "source_url": "https://www.nhs.uk/symptoms/period-pain/",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3B012",
+      "text": "Irregular menstrual cycles can occur during puberty, but persistent or troubling irregularity can merit clinical assessment.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3B009",
+          "section_title": "Causes; See a GP",
+          "locator": "Causes; See a GP",
+          "source_url": "https://www.nhs.uk/symptoms/irregular-periods/",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3B013",
+      "text": "Age-appropriate educational material should accurately address bodily development, respect, consent, and knowing how to seek help.",
+      "classification": "safeguarding",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3B010",
+          "section_title": "Key facts; age-appropriate learning",
+          "locator": "Key facts; age-appropriate learning",
+          "source_url": "https://www.who.int/news-room/fact-sheets/detail/comprehensive-sexuality-education",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3B014",
+      "text": "Sexual activity involving a child who cannot give informed consent constitutes child sexual abuse, and children need safe avenues to report concerns.",
+      "classification": "safeguarding",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3B011",
+          "section_title": "What is child sexual abuse?",
+          "locator": "What is child sexual abuse?",
+          "source_url": "https://www.cdc.gov/child-abuse-neglect/about/about-child-sexual-abuse.html",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3C002",
+      "text": "Gentle washing of external genitals is recommended; internal vaginal washing is not recommended.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3C001",
+          "section_title": "Cleaning your genitals; Washing your face; Washing your hair",
+          "locator": "Cleaning your genitals; Washing your face; Washing your hair",
+          "source_url": "https://www.wchc.nhs.uk/services/lets-talk/young-people/relationships-and-sex-education-rse/puberty/",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3C004",
+      "text": "Pads, period underwear, tampons, and menstrual cups are available choices; practical suitability varies by user.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3C003",
+          "section_title": "Period pads; Tampons; Menstrual cups; Period pants; Toxic shock syndrome",
+          "locator": "Period pads; Tampons; Menstrual cups; Period pants; Toxic shock syndrome",
+          "source_url": "https://www.nhsinform.scot/healthy-living/womens-health/girls-and-young-women-puberty-to-around-25/periods-and-menstrual-health/choosing-period-products/",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3C005",
+      "text": "Pads and period underwear should be changed regularly according to flow and product instructions; used disposable products should go in a bin rather than toilet.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3C003",
+          "section_title": "Period pads; Tampons; Menstrual cups; Period pants; Toxic shock syndrome",
+          "locator": "Period pads; Tampons; Menstrual cups; Period pants; Toxic shock syndrome",
+          "source_url": "https://www.nhsinform.scot/healthy-living/womens-health/girls-and-young-women-puberty-to-around-25/periods-and-menstrual-health/choosing-period-products/",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3C006",
+      "text": "Tampon or cup users should follow product instructions and hand hygiene to reduce the rare risk of toxic shock syndrome.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3C003",
+          "section_title": "Period pads; Tampons; Menstrual cups; Period pants; Toxic shock syndrome",
+          "locator": "Period pads; Tampons; Menstrual cups; Period pants; Toxic shock syndrome",
+          "source_url": "https://www.nhsinform.scot/healthy-living/womens-health/girls-and-young-women-puberty-to-around-25/periods-and-menstrual-health/choosing-period-products/",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3C007",
+      "text": "Menstrual cycles in teenagers can initially be irregular; ACOG describes 21–45 days as a common adolescent cycle interval.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3C004",
+          "section_title": "How often will I get my period?; When should I seek care?",
+          "locator": "How often will I get my period?; When should I seek care?",
+          "source_url": "https://www.acog.org/womens-health/faqs/your-first-period",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3C008",
+      "text": "Missing the first period by age 15 or very long gaps between periods can warrant medical assessment.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3C005",
+          "section_title": "What is a normal menstrual cycle?; When is a menstrual cycle not normal?",
+          "locator": "What is a normal menstrual cycle?; When is a menstrual cycle not normal?",
+          "source_url": "https://www.acog.org/womens-health/faqs/heavy-and-abnormal-periods",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3C009",
+      "text": "ACOG’s 2015 opinion recommends clinical evaluation for a 90-day interval without a menstrual period, even during adolescence.",
+      "classification": "medical",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3C007",
+          "section_title": "Normal Menstrual Cycles; Evaluation",
+          "locator": "Normal Menstrual Cycles; Evaluation",
+          "source_url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2015/12/menstruation-in-girls-and-adolescents-using-the-menstrual-cycle-as-a-vital-sign",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3C010",
+      "text": "Pope Shenouda III lists bleeding among bodily conditions requiring abstention from Holy Communion in his discussion of preparation.",
+      "classification": "pastoral",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3C006",
+          "section_title": "3- يلزم التناول أيضًا استعدادًا للجسد; paragraph on bleeding, lines 81–88 in live HTML",
+          "locator": "3- يلزم التناول أيضًا استعدادًا للجسد; paragraph on bleeding, lines 81–88 in live HTML",
+          "source_url": "https://st-takla.org/Full-Free-Coptic-Books/His-Holiness-Pope-Shenouda-III-Books-Online/22-Al-Wasa2et-Al-Ro7eya/Spiritual-Means-30-CH08-Eucharist-2-Ready.html",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CLM-3C011",
+      "text": "Pope Shenouda III distinguishes spiritual preparation for Communion and physical preparation, including fasting and bodily cleanliness.",
+      "classification": "pastoral",
+      "status": "partially_verified",
+      "evidence": [
+        {
+          "passage_id": "P-S3C006",
+          "section_title": "3- يلزم التناول أيضًا استعدادًا للجسد; paragraph on bleeding, lines 81–88 in live HTML",
+          "locator": "3- يلزم التناول أيضًا استعدادًا للجسد; paragraph on bleeding, lines 81–88 in live HTML",
+          "source_url": "https://st-takla.org/Full-Free-Coptic-Books/His-Holiness-Pope-Shenouda-III-Books-Online/22-Al-Wasa2et-Al-Ro7eya/Spiritual-Means-30-CH08-Eucharist-2-Ready.html",
+          "read_status": "checked",
+          "evidence_status": "unreviewed",
+          "relation": "supports",
+          "quote_permission_status": "unknown"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "chapter": "G05",
+      "objective": "Menstrual basics and early-cycle variability",
+      "status": "source-supported; clinical review pending",
+      "gate": "draft_with_review"
+    },
+    {
+      "chapter": "G05",
+      "objective": "Period products and practical hygiene",
+      "status": "source-supported; clinical review pending",
+      "gate": "draft_with_review"
+    },
+    {
+      "chapter": "G05",
+      "objective": "Period pain/heavy flow warning signs",
+      "status": "source-supported; clinical review pending",
+      "gate": "draft_with_review"
+    },
+    {
+      "chapter": "G05",
+      "objective": "Bodily dignity and spiritual support",
+      "status": "source-supported; clergy review pending",
+      "gate": "draft_with_review"
+    },
+    {
+      "chapter": "G05",
+      "objective": "Menstruation and Communion / church practice",
+      "status": "historical attributed position found; current applicability unconfirmed",
+      "gate": "hold_publication"
+    },
+    {
+      "chapter": "G05",
+      "objective": "Age-appropriate safeguarding",
+      "status": "source-supported; safeguarding review pending",
+      "gate": "draft_with_review"
+    }
+  ],
+  "editorial_warnings": [
+    "No specialist review has been recorded.",
+    "Do not use direct third-party quotations without a rights review.",
+    "Menstruation and Communion: pastoral passage requires current-practice review by Coptic Orthodox clergy."
+  ]
+}
